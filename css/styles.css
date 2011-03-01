@@ -1,0 +1,153 @@
+body {
+	background-image: url(../images/meltingice_bg.png);
+	background-repeat: repeat;
+}
+
+h1 {
+    font-family: Georgia, serif;
+}
+
+a {
+    color: #f2f2f2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+	border: none;
+}
+
+#header {
+    width: 900px;
+    margin: 50px auto 20px auto;
+}
+
+#header h1 {
+    font-size: 30px;
+    color: #f2f2f2;
+    text-shadow: 2px 2px 1px #0F111F;
+}
+
+#header_small {
+    color: #e8e8e8 !important;
+    text-shadow: 1px 1px 1px #0F111F;
+    font-size: 16px !important;
+}
+
+#content {
+    width: 900px;
+    margin: 10px auto;
+}
+
+#about_me {
+    width: 100%;
+    font: normal normal normal 13px/1.5 'Helvetica Neue', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+    color: #f2f2f2;
+    margin-bottom: 10px;
+    padding: 0 10px 0 10px;
+    overflow: hidden;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}
+
+#about_me p {
+    margin-bottom: 5px;
+}
+
+#tagline {
+    font-size: 14px;
+    margin-bottom: 0 !important;
+}
+
+#profile_image {
+    float: left;
+    margin-right: 10px;
+    width: 128px;
+    height: 128px;
+}
+
+#profile_image img {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.infobox {
+    width: 280px;
+    padding: 10px;
+    float: left;
+}
+
+#content h1 {
+    font-size: 20px;
+    color: #f2f2f2;
+    text-shadow: 1px 1px 1px #0F111F;
+}
+
+#content h1 > a {
+    font-weight: normal !important;
+}
+
+#content h3 {
+    font-family: Georgia, serif;
+    font-size: 16px; 
+}
+
+#content ul {
+    margin-top: 0px;
+    padding: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+#content li {
+    border-bottom: 1px #4D4F5F solid;
+    color: #e2e2e2;
+    padding: 5px;
+    font: normal normal normal 13px/1.5 'Helvetica Neue', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+#content li:last-child {
+    border-bottom: none;
+}
+
+#twitpic_images, #flickr_images {
+    margin-top: 12px;
+    text-align: center;
+    padding: 0 10px 0 10px;
+    color: #e2e2e2;
+    font: normal normal normal 13px/1.5 'Helvetica Neue', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+#twitpic_images img, #flickr_images img {
+    margin: 3px;
+}
+
+#github a, #blog a {
+    font-weight: normal !important;
+}
+
+p.meta {
+    font-size: 12px;
+    color: #86878F;
+}
+
+p.meta a {
+    color: #86878F !important;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 10px 0;
+    color: #4D4F5F;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
